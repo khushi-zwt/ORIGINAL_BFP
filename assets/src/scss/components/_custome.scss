@@ -1,0 +1,55 @@
+h1{
+    color: $white;
+}
+
+h2,h3,h4{
+    color: $main-color;
+}
+
+h5,h6{
+    color: $black;
+}
+
+.h1-color-head{
+    color: $main-color;
+    text-align: center;
+    font-size: 50px;
+}
+
+.relieve-stress-section {
+    background-color: #ECF4D1;
+    text-align: center;
+    padding: 20px;
+}
+
+.h3-head-right{
+    text-align: justify;
+}
+
+.btn-full-width{
+    width: 100%;
+}
+.index-btn{margin-top: 30px;
+    
+}
+
+.transparent-btn{
+
+    cursor: pointer;
+    border: 3px solid $white;
+    border-radius: 100px;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    color: $white;
+    font-size: 20px;
+
+        &:hover,
+        &:focus,
+        a:hover & {
+            color: $sub-color;
+            text-decoration: none;
+            background-color: $white;
+            cursor: pointer;
+        }
+}
