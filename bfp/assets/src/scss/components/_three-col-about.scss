@@ -1,0 +1,28 @@
+/*image with text*/
+.three-col-about{
+    padding: 31px 0;
+    margin: 0px ;
+	background-color: #FAFCF2;
+	.block-wrap-about{
+		display: flex;
+		justify-content: space-between;
+		.image-block-about{
+			padding: 0px 20px;
+			.head-data-about{
+				padding-top: 10px;
+				h2{
+					color: #1B984C;
+					text-align:center;
+					padding: 20px;
+					font-size: 25px;
+				}
+			}
+		}
+	}
+	h3{
+		color: #1B984C;
+		text-align: center;
+	}
+}
+
+

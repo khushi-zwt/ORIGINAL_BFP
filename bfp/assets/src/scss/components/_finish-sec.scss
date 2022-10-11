@@ -1,0 +1,27 @@
+// variable and mixin
+// @import 'abstracts/core' ;
+
+.finish-sec{
+    position: relative;
+    padding: 20px 0px;
+    .fs-inner{ 
+        position: relative;
+        padding: 10px 0px;
+        width: 100%;
+        background-position: center  center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 500px; 
+		&-text{
+        	position: absolute;
+        	left: 100px;
+        	top: 25%;
+        	text-align: justify;
+			h5{
+				color: $white;
+			}
+    	}
+	}
+
+}
+

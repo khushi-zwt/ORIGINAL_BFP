@@ -1,0 +1,36 @@
+/*2 component*/
+    // padding: 40px 0;
+	// width: (100% - 120px);
+.two-col{
+	background-color: #FAFCF2;
+	.block-wrap {
+		display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 10px 10px;
+        .left-block{
+            // width: 50%;
+			width: 120px;
+				img{
+					display: block;
+					width: 100%;
+				}
+        }
+        .right-block{
+			width: calc(100% - 120px);
+            // width: 50%;
+            // background-color:#fff;
+            padding-left: 50px;
+           
+        }
+    }
+}
+	// h2{
+	// 	color: $primary-100;
+	// 	text-align: left;
+	// 	text-transform: uppercase;
+	// }
+	
+
+
+

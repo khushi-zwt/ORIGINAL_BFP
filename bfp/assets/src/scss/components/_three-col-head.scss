@@ -1,0 +1,23 @@
+/*image with text*/
+.three-col-head{
+    padding: 31px 0;
+    margin: 0px ;
+	.block-wrap-head{
+		display: flex;
+		justify-content: space-between;
+		.image-block-head{
+			padding: 0px 20px;
+			.head-data-head{
+				padding-top: 10px;
+				h6{
+					color: $black;
+					text-align:center;
+					padding: 20px;
+					font-size: 25px;
+				}
+			}
+		}
+	}
+}
+
+

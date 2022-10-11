@@ -1,0 +1,147 @@
+
+/* footer */
+.main-footer { 
+	width:100%; 
+	height:auto; 
+	background-color:#262626; 
+	line-height: normal;
+	
+	.footer-main {
+		width: 33%;
+		// padding: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+		
+		.footer-left-part {
+			.footer-logo {
+				margin-bottom: 15px;
+			}
+			.foot-text p { 
+				padding-bottom: 20px;
+				max-width: 80%;
+				color: $white;
+				line-height: 26px;
+			}
+			.foot-title h3{
+				text-transform: uppercase;
+				color: $white;
+				font-weight: 900;
+				font-size: 18px;
+				margin-top: 7px;
+				margin-left: 42px;
+				margin-bottom: 32px;
+			}
+		}
+	}
+	.footer-links {
+		width: 20%;
+		padding-left: 15px;
+		padding-right: 15px;
+		.foot-title h3{
+			text-transform: uppercase;
+			color: $white;
+			margin-top: 7px;
+		}
+		.foot-menu {
+			ul {
+				li {
+					list-style-type: none;
+					
+					a{
+						text-decoration: none;
+						color: $white;
+					}
+					
+				}
+				li::before{
+					content:">";
+					font-size: 10px;
+					padding :15px;
+					color: $white;
+				}
+			}
+		}
+	}
+	.footer-contact-us {
+		margin-left: 42px;
+		// padding-left: 31px;
+		position: relative;
+		// padding-bottom: 8px;
+		padding-left: 15px;
+		padding-right: 15px;
+		.footer-right-part{
+			.footer-contact {
+				.foot-title h3{
+					text-transform: uppercase;
+					color: $white;
+					margin-top: 7px;
+					margin-left: 42px;
+					margin-bottom: 32px;
+				}
+				.contact-address{
+					color: $white;
+					font-style: normal;
+					line-height: 26px;
+				}
+				.contact-phone{
+					
+					a{
+						color: $white;
+						text-decoration: none;
+					}
+				}
+				.contact-email{
+					a{
+						color: $white;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+	.copy-right-footer * {
+		color: $white;
+		text-align: center;
+	}
+	.copy-right-footer {
+		width:100%; 
+		height:auto; 
+		background:$black; 
+		line-height: normal;
+		
+	}
+
+}
+
+
+
+// .main-footer { width:100%; height:auto; background:#182034; line-height: normal;padding: 70px 0px 107px 0px;}
+// footer * {color: #c3ccd9;font-family: 'Open Sans', sans-serif;font-size: 14px;}
+// .footer-left-part .footer-logo {margin-bottom: 15px;}
+// .footer-left-part .foot-text { padding-bottom: 20px;max-width: 80%;}
+// .footer-left-part .foot-text p {line-height: 26px;}
+// .foot-title h3{text-transform: uppercase;color: #e61f2d;font-weight: 900;font-size: 18px;margin-top: 7px;}
+// .foot-menu ul {margin: 0px;}
+// .foot-menu ul li {list-style-type: none;}
+// .foot-title {margin-left: 42px;margin-bottom: 32px;}
+// .foot-menu {margin-left: 42px;}
+// .footer-main {width: 33%;padding-left: 15px;padding-right: 15px;}
+// .footer-links {width: 20%;padding-left: 15px;padding-right: 15px;}
+// .footer-services {width: 25%;padding-left: 15px;padding-right: 15px;}
+// .footer-contact .contact-box {margin-left: 42px;padding-left: 31px;position: relative;padding-bottom: 8px;}
+// .footer-contact address{font-style: normal;line-height: 26px;}
+// .foot-address:before {position: absolute;left: -1px;top: 3px;color: #e61f2d;font-size: 23px;}
+// .footer-contact .foot-phone a{font-style: normal;line-height: 26px;font-size: 18px;}
+// .foot-phone:before {position: absolute;left: -1px;top: 3px;color: #e61f2d;font-size: 20px;}
+// .footer-contact .foot-email a{font-style: normal;line-height: 26px;}
+// .foot-email:before {position: absolute;left: -1px;top: 3px;color: #e61f2d;font-size: 20px;}
+// .footer-contact-us {padding-left: 15px;padding-right: 15px;}
+// /* second-footer */
+// .copy-right-footer * {color: #525252;}
+// .copy-right-footer {width:100%; height:auto; background:#FFF; line-height: normal;padding: 11px 0px;position: relative;}
+// .copy-right-footer .copy-right-foot {display: flex;align-items: center;justify-content: space-between;}
+// .nav-footer {display: flex;margin: 0px;}
+// .nav-footer .nav-item {list-style-type: none;margin: 0px;}
+// .right-footer .link-foot-copy{padding: 0px 15px;position: relative;color: #525252;}
+// .right-footer .link-foot-copy:hover, .right-footer .link-foot-copy:focus {color: #e61f2d;}
+// .right-footer .link-foot-copy:last-child {padding-right: 0px;}

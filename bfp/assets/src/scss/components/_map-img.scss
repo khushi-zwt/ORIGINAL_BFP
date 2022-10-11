@@ -1,0 +1,19 @@
+// variable and mixin
+// @import 'abstracts/core' ;
+
+.map-img{
+    position: relative;
+    padding: 25px 0px;
+    .image-map{ 
+        position: relative;
+        padding: 10px 0px;
+        width: 100%;
+        background-position: center  center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 380px; 
+    }
+   
+
+}
+
