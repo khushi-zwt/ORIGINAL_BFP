@@ -1,0 +1,41 @@
+// variable and mixin
+// @import 'abstracts/core' ;
+
+.banner{
+    position: relative;
+    padding: 25px 0px;
+    &-inner{ 
+        position: relative;
+        padding: 10px 0px;
+        width: 100%;
+        background-position: center  center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 705px; 
+    }
+    // &-text{
+    //     color: $white;
+    //     position: absolute;
+    //     left: px;
+	// 	top: 25%;
+    //     text-align: center;
+    // }
+	 &-text{
+		text-transform: uppercase;
+		text-align: center;
+		color: $white;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50% , -50%);
+		z-index: 999;
+	  }
+	  h3{
+		color: $white;
+	  }
+	  h5{
+		  color: $white;
+	  }
+
+}
+

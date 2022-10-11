@@ -1,0 +1,43 @@
+/*image with text*/
+
+// .three-col{
+//     padding: 31px 0;
+//     margin: 0px ;
+	
+// 	.block-wrap{
+// 		.image-col{
+// 			display: flex;
+// 			justify-content: space-between;
+			
+// 			.image-block{
+// 				padding: 20px;
+// 				.image-text{
+// 					.head-data{
+// 						padding-top: 10px;
+// 						ul{
+// 							li{
+// 								list-style-type: none;
+// 							}
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+
+.work-col{
+	width: 33.33%;
+
+	.image-block{
+		text-align: center;
+	}
+	.head-data{
+		ul{
+			li{
+				list-style-type: none;
+			}
+		}
+	}
+}
+
