@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Courier New', Courier, monospace;
+}
+nav{
+	background-color: #242526;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	height: 56px;
+	line-height: 65px;
+}
+nav .wrapper{
+	max-width: 1250px;
+	padding: 0 30px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+}
+
+.wrapper .logo a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 27px;
+	font-weight: 600;
+}
+
+.wrapper .nav-links{
+	display: inline-flex;
+}
+.nav-links li {
+	list-style-type: none;
+}
+.nav-links li a{
+	color: #f2f2f2;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 9px 15px;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+}
+
+.nav-links li a:hover{
+	background-color: #3A3B3C;
+}
+
+.nav-links .drop-menu{
+	background-color: #242526;
+	width: 180px;
+	top: 65px;
+	line-height: 45px;
+	position: absolute;
+	/* for drop-down menu display before on hover */
+	opacity: 0;
+	visibility: hidden;
+}
+/* for drop-down menu display on hover */
+.nav-links li:hover .drop-menu{
+	top: 65px;
+	opacity: 1;
+	visibility: visible;
+	transition: all 0.3s ease;
+}
+.drop-menu li a{
+	width: 100%;
+	display: block;
+	padding: 0 0 0 15px;
+	font-weight: 400;
+}
+
+/* css for mega-menu box */
+.mega-box{
+	position: absolute;
+	top: 85px;
+	width: 100%;
+	left: 0;
+	/* for mega-menu display before on hover */
+	opacity: 0;
+	visibility: hidden;
+}
+.nav-links li:hover .mega-box{
+	top: 65px;
+	opacity: 1;
+	visibility: visible;
+	transition: all 0.3s ease;
+}
+
+.mega-box .content{
+	background-color: #242526;
+	padding: 25px 20px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.content .row{
+	width: calc(25% - 30px);
+	line-height: 45px;
+}
+
+.content .row img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.content .row header{
+	color: #f2f2f2;
+	font-size: 20px;
+	font-weight: 500;
+}
+.content .row:nth-child(1),
+.content .row:nth-child(2){
+	border-right: 0px;
+}
+.content .row .mega-links{
+	margin-left: -40px;
+	border-right: 1px solid black;
+}
+.row .mega-links li{
+	padding: 0 20px;
+}
+
+.row .mega-links li a{
+	padding: 0 20px;
+	color: #d9d9dd;
+	font-size: 17px;
+	display: block;
+}
+
+.row .mega-links li a:hover{
+	background-color: #f2f2f2;
+}

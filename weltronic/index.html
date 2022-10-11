@@ -1,0 +1,834 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML Boilerplate 1.1.2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="description" content="" /> 
+        <meta name="keywords" content="">
+        <!-- <meta name="theme-color" content="#7b0a2e"/> -->
+        <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+        <link rel="icon" type="image/png" href="assets/images/favicon.png" /> 
+
+        <!-- vendor css -->
+        <link href="assets/css/utilities.min.css" rel="stylesheet" />
+
+        <!-- theme stylesheet -->
+        <link href="style.css" rel="stylesheet" />
+        <link href="assets/css/responsive.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./assets/css/slick.css">
+    </head>
+    <body>
+
+        <!-- start -->
+        <div class="wrapper">
+            <div class="main-container">
+                <div class="mobilenav d-md-none">
+                    <div class="nav-backdrop"></div>
+                    <!-- hamburger -->
+                    <a href="javascript:;" class="hamburger">
+                        <span class="wrap">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </span>
+                    </a>
+                    <div class="menu-state" data-clickable="true">
+                        <!-- menu header and hamburger -->
+                        <div class="row no-gutters">
+                            <div class="cell-8">
+                                <div class="nav-logo">
+                                    <span>Logo</span>
+                                </div>
+                            </div>
+                            <div class="cell-4 d-flex justify-content-end">
+                                <a href="javascript:;" class="hamburger close">
+                                    <span class="wrap">
+                                        <span class="line"></span>
+                                        <span class="line"></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <!--  main responsive menu -->
+                        <div class="menu-outer">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a>
+                                    <!-- submenu level 2  -->
+                                    <ul>
+                                        <li><a href="#">About 2</a>
+                                            <ul>
+                                                <li><a href="#">About 3</a></li>
+                                                <li><a href="#">About 3</a></li>
+                                                <li><a href="#">About 3</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">About 2</a>
+                                            <!-- submenu level 3 -->
+                                            <ul>
+                                                <li><a href="#">About 3</a></li>
+                                                <li><a href="#">About 3</a></li>
+                                                <li><a href="#">About 3</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">About 2</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Service</a>
+                                    <ul>
+                                        <li><a href="#">Service 2</a></li>
+                                        <li><a href="#">Service 2</a>
+                                            <ul>
+                                                <li><a href="#">Service 3</a></li>
+                                                <li><a href="#">Service 3</a></li>
+                                                <li><a href="#">Service 3</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Service 2</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- header part -->
+                <header class="main-header">
+						<div class="full-bg-height-auto">
+							<div class="container">
+								<div class="header-wrapper">
+									<ul class="nav-list">
+										<li class="nav-links d-flex align-items-center flex-nowrap">
+											<div class="menu-image">
+												<a href="#"> <img src="./assets/images/menu-1.svg" alt="icon"></a>
+											</div>
+											<div class="menu-text">
+												<a href="#">Gratis verzending vanaf € 200,-*</a>
+											</div>
+										</li>
+										<li class="nav-links d-flex align-items-center flex-nowrap">
+											<div class="menu-image">
+												<a href="#"> <img src="./assets/images/menu-4.svg" alt="icon"></a>
+											</div>
+											<div class="menu-text">
+												<a href="#">Voor 13:00 besteld is vandaag verzonden</a>
+											</div>
+										</li>
+										<li class="nav-links d-flex align-items-center flex-nowrap">
+											<div class="menu-image">
+												<a href="#"> <img src="./assets/images/menu-3.svg" alt="icon"></a>
+											</div>
+											<div class="menu-text">
+												<a href="#">60 dagen retourrecht</a>
+											</div>
+										</li>
+										<li class="nav-links d-flex align-items-center flex-nowrap">
+											<div class="menu-image">
+												<a href="#"> <img src="./assets/images/menu-2.svg" alt="icon"></a>
+											</div>
+											<div class="menu-text">
+												<a href="#">Tot wel 5 jaar garantie</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+                                <div class="sub-menu">
+                                    <div class="sub-wrapper">
+                                        <div class="logo">
+                                            <img src="assets/images/logo.png" alt="logo">
+                                        </div>
+                                        <div class="sub-nav-list">
+                                            <ul class="menu">
+                                                <li> <a href="#">Home</a></li>
+                                                <li> <a href="#">Assortiment</a></li>
+                                                <li> <a href="#">Over ons</a></li>
+                                                <li> <a href="#">About</a></li>
+                                                <li> <a href="#">Veelgestelde Vragen</a></li>
+                                                <li> <a href="#">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="login-add-to-cart">
+                                            <div class="login">
+                                                <a href="#" target="_blank">Login</a>
+                                            </div>
+                                            <div class="cart">
+                                                <a href="#" target="_blank"><img src="assets/images/Design.svg" alt="cart"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+				</header>
+                <!-- banner area part -->
+                <section class="banner-section">
+                  <div class="banner-slider">
+                        <div class="banner-inner-wrapper">
+                            <div class="banner-bg">
+                                <img src="assets/images/banner-image.png" alt="background-image">
+                            </div>
+                            <div class="container">
+                                <div class="banner-text-box">
+                                    <div class="banner-text-heading">
+                                        <h1 class="h1">Focused on aviation and energy.</h1>
+                                    </div>
+                                    <div class="banner-content">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                                            Lorem Ipsum has been the industry’s standard dummy text ever since 
+                                            the 1500 type specimen book.
+                                        </p>
+                                    </div>
+                                    <div class="read-cta">
+                                        <a href="#" class="btn">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner-inner-wrapper">
+                            <div class="banner-bg">
+                                <img src="assets/images/banner-image.png" alt="background-image">
+                            </div>
+                            <div class="container">
+                                <div class="banner-text-box">
+                                    <div class="banner-text-heading">
+                                        <h1 class="h1">Focused on aviation and energy.</h1>
+                                    </div>
+                                    <div class="banner-content">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                                            Lorem Ipsum has been the industry’s standard dummy text ever since 
+                                            the 1500 type specimen book.
+                                        </p>
+                                    </div>
+                                    <div class="read-cta">
+                                        <a href="#" class="btn">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner-inner-wrapper">
+                            <div class="banner-bg">
+                                <img src="assets/images/banner-image.png" alt="background-image">
+                            </div>
+                            <div class="container">
+                                <div class="banner-text-box">
+                                    <div class="banner-text-heading">
+                                        <h1 class="h1">Focused on aviation and energy.</h1>
+                                    </div>
+                                    <div class="banner-content">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                                            Lorem Ipsum has been the industry’s standard dummy text ever since 
+                                            the 1500 type specimen book.
+                                        </p>
+                                    </div>
+                                    <div class="read-cta">
+                                        <a href="#" class="btn">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+				<!-- Two Column Section-->
+                <section class="two-col-section py-50">
+                    <div class="container">
+                        <div class="two-col-wrapper row">
+                            <div class="left-col  no-gutters cell-md-6">
+                                <div class="left-col-heading">
+                                    <h2 class="h2">H1 heading here</h2>
+                                </div>
+                                <div class="left-col-content">
+                                    <p>Sinds 2005 zijn wij uw adres voor het leveren van optische en akoestische veiligheidssignalering, striping, zoeklampen, werkverlichting, stop matrix borden en aanverwanten.</p>
+                                    <p>Sinds 2007 zijn wij officieel importeur voor Nederland van Juluen producten, waaronder Axixtech producten vallen. Juluen staat garant voor innoviteit, goede kwaliteit, modern design, veelzijdigheid, en maar liefst 5 jaar garantie op alle LED producten.</p>
+                                </div>
+                                <div class="read-cta">
+                                    <a href="#" class="btn btn-cta">read more</a>
+                                </div>
+                            </div>
+                            <div class="right-col no-gutters cell-md-6">
+                                <img src="assets/images/two-col-img.png" alt="right-image">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- content area part -->
+                <div class="main-content">
+					<!-- Our Categories Section-->
+                    <section class="our-categories py-50">
+                      	<div class="container">
+							<div class="cat-content">
+								<h2 class="h2">Our Categories</h2>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the specimen book.</p>
+							</div>
+							<div class="product-list row justify-content-center">
+								<div class="single-product cell-md-3">
+									<div class="single-product-wrapper d-flex justify-content-center">
+										<div class="product-image">
+											<img src="assets/images/our-categories.png" alt="category-product">
+										</div>
+										<div class="product-details">
+											<div class="product-name">
+												<h3 class="h3">Zwaailampen</h3>
+											</div>
+											<div class="product-description">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+											</div>
+											<div class="read-cta">
+												<a href="#" class="btn btn-cta">read more</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="single-product cell-md-3">
+									<div class="single-product-wrapper d-flex justify-content-center">
+										<div class="product-image">
+											<img src="assets/images/our-categories.png" alt="category-product">
+										</div>
+										<div class="product-details">
+											<div class="product-name">
+												<h3 class="h3">Zwaailampen</h3>
+											</div>
+											<div class="product-description">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+											</div>
+											<div class="read-cta">
+												<a href="#" class="btn btn-cta">read more</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="single-product cell-md-3">
+									<div class="single-product-wrapper d-flex justify-content-center">
+										<div class="product-image">
+											<img src="assets/images/our-categories.png" alt="category-product">
+										</div>
+										<div class="product-details">
+											<div class="product-name">
+												<h3 class="h3">Zwaailampen</h3>
+											</div>
+											<div class="product-description">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+											</div>
+											<div class="read-cta">
+												<a href="#" class="btn btn-cta">read more</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="single-product cell-md-3">
+									<div class="single-product-wrapper d-flex justify-content-center">
+										<div class="product-image">
+											<img src="assets/images/our-categories.png" alt="category-product">
+										</div>
+										<div class="product-details">
+											<div class="product-name">
+												<h3 class="h3">Zwaailampen</h3>
+											</div>
+											<div class="product-description">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+											</div>
+											<div class="read-cta">
+												<a href="#" class="btn btn-cta">read more</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="single-product cell-md-3">
+									<div class="single-product-wrapper d-flex justify-content-center">
+										<div class="product-image">
+											<img src="assets/images/our-categories.png" alt="category-product">
+										</div>
+										<div class="product-details">
+											<div class="product-name">
+												<h3 class="h3">Zwaailampen</h3>
+											</div>
+											<div class="product-description">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+											</div>
+											<div class="read-cta">
+												<a href="#" class="btn btn-cta">read more</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="single-product cell-md-3">
+									<div class="single-product-wrapper d-flex justify-content-center">
+										<div class="product-image">
+											<img src="assets/images/our-categories.png" alt="category-product">
+										</div>
+										<div class="product-details">
+											<div class="product-name">
+												<h3 class="h3">Zwaailampen</h3>
+											</div>
+											<div class="product-description">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+											</div>
+											<div class="read-cta">
+												<a href="#" class="btn btn-cta">read more</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="single-product cell-md-3">
+									<div class="single-product-wrapper d-flex justify-content-center">
+										<div class="product-image">
+											<img src="assets/images/our-categories.png" alt="category-product">
+										</div>
+										<div class="product-details">
+											<div class="product-name">
+												<h3 class="h3">Zwaailampen</h3>
+											</div>
+											<div class="product-description">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+											</div>
+											<div class="read-cta">
+												<a href="#" class="btn btn-cta">read more</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="single-product cell-md-3">
+									<div class="single-product-wrapper d-flex justify-content-center">
+										<div class="product-image">
+											<img src="assets/images/our-categories.png" alt="category-product">
+										</div>
+										<div class="product-details">
+											<div class="product-name">
+												<h3 class="h3">Zwaailampen</h3>
+											</div>
+											<div class="product-description">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+											</div>
+											<div class="read-cta">
+												<a href="#" class="btn btn-cta">read more</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="d-flex justify-content-center">
+								<a href="#" class="btn">view all categorie</a>
+							</div>
+						</div>
+                    </section>
+					<!-- Trusted-By Section-->
+					<section class="trusted-by-section py-50">
+						<div class="inner-wrapper d-flex">
+							<div class="testimonial-slider cell-md-6">
+								<div class="slider-inner-wrapper">
+									<div class="circle-quotes">
+										<img src="assets/images/quotes.png" alt="quote">
+									</div>
+									<div class="customer-sayings">
+										<p>
+											As a first time importer from the Far  East, the process can be quite daunting.  Weltronic Good has provided exceptional  service and support right through exceptional  the process.
+										</p>
+									</div>
+									<div class="customers">
+										<h3>Steve Macholnad</h3>
+										<p>Manager Smart Move LTD</p>
+									</div>
+								</div>
+								<div class="slider-inner-wrapper">
+									<div class="circle-quotes">
+										<img src="assets/images/quotes.png" alt="quote">
+									</div>
+									<div class="customer-sayings">
+										<p>
+											As a first time importer from the Far  East, the process can be quite daunting.  Weltronic Good has provided exceptional  service and support right through exceptional  the process.
+										</p>
+									</div>
+									<div class="customers">
+										<h3>Steve Macholnad</h3>
+										<p>Manager Smart Move LTD</p>
+									</div>
+								</div>
+								<div class="slider-inner-wrapper">
+									<div class="circle-quotes">
+										<img src="assets/images/quotes.png" alt="quote">
+									</div>
+									<div class="customer-sayings">
+										<p>
+											As a first time importer from the Far  East, the process can be quite daunting.  Weltronic Good has provided exceptional  service and support right through exceptional  the process.
+										</p>
+									</div>
+									<div class="customers">
+										<h3>Steve Macholnad</h3>
+										<p>Manager Smart Move LTD</p>
+									</div>
+								</div>
+							</div>
+							<div class="trusted-companies cell-md-6">
+								<div class="trusted-by-wrapper">
+									<div  class="trusted-by-header">
+										<h2 class="h2">Trusted By Some The 
+											World’s Companies for 
+											over 17 years
+										</h2>
+									</div>
+									<div class="company-logos row no-gutters">
+										<div class="card cell-md-6">
+											<div class="image-box">
+												<a href="#"><img src="assets/images/company-logo.png" alt="company-logos"></a>
+											</div>
+										</div>
+										<div class="card cell-md-6">
+											<div class="image-box">
+												<a href="#"><img src="assets/images/company-logo.png" alt="company-logos"></a>
+											</div>
+										</div>
+										<div class="card cell-md-6">
+											<div class="image-box">
+												<a href="#"><img src="assets/images/company-logo.png" alt="company-logos"></a>
+											</div>
+										</div>
+										<div class="card cell-md-6">
+											<div class="image-box">
+												<a href="#"><img src="assets/images/company-logo.png" alt="company-logos"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- Our Popular Products Section-->
+					<section class="our-popular-products py-50">
+						<div class="container-secondary">
+							<div class="cat-content">
+								<h2 class="h2">Our Popular</h2>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the specimen book.</p>
+							</div>
+							<div class="product-slider">
+								<div class="product-list">
+									<div class="popular-product">
+										<div class="single-product-wrapper d-flex justify-content-center">
+											<div class="product-image">
+												<img src="assets/images/our-popular.png" alt="category-product">
+											</div>
+											<div class="product-details">
+												<div class="product-name">
+													<h4 class="h4">
+														LP6 zeer platte LED
+														opbouw flitser
+													</h4>
+												</div>
+												<div class="popular-product-description">
+													<span><b>€51,99</b></span>excl.btw<br>
+													<span><b>€62,91</b></span>incl. btw
+												</div>
+												<div class="read-cta">
+													<a href="#" class="btn btn-cta">add to cart</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="product-list">
+									<div class="popular-product">
+										<div class="single-product-wrapper d-flex justify-content-center">
+											<div class="product-image">
+												<img src="assets/images/our-popular.png" alt="category-product">
+											</div>
+											<div class="product-details">
+												<div class="product-name">
+													<h4 class="h4">
+														LP6 zeer platte LED
+														opbouw flitser
+													</h4>
+												</div>
+												<div class="popular-product-description">
+													<span><b>€51,99</b></span>excl. btw <br>
+													<span><b>€62,91</b></span>incl. btw
+												</div>
+												<div class="read-cta">
+													<a href="#" class="btn btn-cta">add to cart</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="product-list">
+									<div class="popular-product">
+										<div class="single-product-wrapper d-flex justify-content-center">
+											<div class="product-image">
+												<img src="assets/images/our-popular.png" alt="category-product">
+											</div>
+											<div class="product-details">
+												<div class="product-name">
+													<h4 class="h4">
+														LP6 zeer platte LED
+														opbouw flitser
+													</h4>
+												</div>
+												<div class="popular-product-description">
+													<span><b>€51,99</b></span>excl.btw<br>
+													<span><b>€62,91</b></span>incl. btw
+												</div>
+												<div class="read-cta">
+													<a href="#" class="btn btn-cta">add to cart</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="product-list">
+									<div class="popular-product">
+										<div class="single-product-wrapper d-flex justify-content-center">
+											<div class="product-image">
+												<img src="assets/images/our-popular.png" alt="category-product">
+											</div>
+											<div class="product-details">
+												<div class="product-name">
+													<h4 class="h4">
+														LP6 zeer platte LED
+														opbouw flitser
+													</h4>
+												</div>
+												<div class="popular-product-description">
+													<span><b>€51,99</b></span>excl.btw<br>
+													<span><b>€62,91</b></span>incl. btw
+												</div>
+												<div class="read-cta">
+													<a href="#" class="btn btn-cta">add to cart</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+				  </section>
+				  <!-- Industry Insights Section-->
+				  <section class="industry-insight py-50">
+					<div class="container">
+						<div class="cat-content">
+							<h2 class="h2">Industry insight opinion</h2>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the specimen book.</p>
+						</div>
+						<div class="insight-wrapper row no-gutters flex-nowrap">
+							<div class="insight-layout">
+								<div class="insight-images">
+									<img src="assets/images/industry-insight.png" alt="insights">
+								</div>
+								<div class="read-article">
+									<a href="#"><img src="assets/images/chevron_right.svg" alt="right"></a>
+								</div>
+								<div class="insight-details-wrapper d-flex">
+									<h3 class="h3">Expression alteration entreaties mrs can terminated estimating.</h3>
+									<p><a href="#">31st October, 2020</a></p>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been book.</p>
+									<p><a href="#" class="read-link">Read Article</a></p>
+								</div>
+							</div>
+							<div class="insight-layout">
+								<div class="insight-images">
+									<img src="assets/images/industry-insight.png" alt="insights">
+								</div>
+								<div class="read-article">
+									<a href="#"><img src="assets/images/chevron_right.svg" alt="right"></a>
+								</div>
+								<div class="insight-details-wrapper d-flex">
+									<h3 class="h3">Expression alteration entreaties mrs can terminated estimating.</h3>
+									<p><a href="#">31st October, 2020</a></p>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been book.</p>
+									<p><a href="#" class="read-link">Read Article</a></p>
+								</div>
+							</div>
+							<div class="insight-layout">
+								<div class="insight-images">
+									<img src="assets/images/industry-insight.png" alt="insights">
+								</div>
+								<div class="read-article">
+									<a href="#"><img src="assets/images/chevron_right.svg" alt="right"></a>
+								</div>
+								<div class="insight-details-wrapper d-flex">
+									<h3 class="h3">Expression alteration entreaties mrs can terminated estimating.</h3>
+									<p><a href="#">31st October, 2020</a></p>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been book.</p>
+									<p><a href="#" class="read-link">Read Article</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				  </section>
+				  <!-- Our Experts Section-->
+				  <section class="our-experts py-50">
+					<div class="container-secondary">
+						<div class="cat-content experts-information">
+							<h2 class="h2">Our experts</h2>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the specimen book.</p>
+							<a href="#" class="btn btn-cta">view all</a>
+						</div>
+						<div class="portfoilo-block d-flex justify-content-between">
+							<div class="profile-image-block">
+								<div class="portfolio-image">
+									<img src="assets/images/profile-1.png" alt="#">
+								</div>
+								<div class="profile-info">
+									<h6 class="h6">Richard David</h6>
+									<p>Branch Manager</p>
+								</div>
+							</div>
+							<div class="profile-image-block">
+								<div class="portfolio-image">
+									<img src="assets/images/profile-2.png" alt="#">
+								</div>
+								<div class="profile-info">
+									<h6 class="h6">Richard David</h6>
+									<p>Branch Manager</p>
+								</div>
+							</div>
+							<div class="profile-image-block">
+								<div class="portfolio-image">
+									<img src="assets/images/profile-1.png" alt="#">
+								</div>
+								<div class="profile-info">
+									<h6 class="h6">Richard David</h6>
+									<p>Branch Manager</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				  </section>
+                </div>
+            </div>
+
+            <!-- footer part -->
+            <footer class="main-footer">
+				<!-- Sub Footer Section-->
+				<div class="container-secondary">
+					<div class="sub-footer d-flex">
+						<div class="sub-footer-content">
+							<h4 class="h4">Dummy Title Goes Here…</h4>
+							<p>Lorem Ipsum is simply dummy text of the printing and industry. 
+								industry’s standard dummy text ever since the book.
+							</p>
+						</div>
+						<div class="footer-cta">
+							<a href="#" class="btn btn-cta">let's connect</a>
+						</div>
+					</div>
+				</div>
+				<!-- Main Footer Section-->
+                <div class="container py-30">
+                    <div class="footer-wrapper d-flex nowrap">
+                        <div class="cell-md-3">
+                            <div class="footer-about-us d-flex">
+                                <div class="footer-logo">
+                                    <img src="assets/images/logo.png" alt="footer-logo">
+                                </div>
+                                <div class="about-content">
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the specimen book.
+                                    </p>
+                                </div>
+                                <div class="social-icons-link d-flex">
+                                    <a href="#"><img src="./assets/images/facebook.svg" alt="facebook"></a>
+                                    <a href="#"><img src="./assets/images/twitter.svg" alt="twitter"></a>
+                                    <a href="#"><img src="./assets/images/instagram.svg" alt="instagram"></a>
+                                    <a href="#"><img src="./assets/images/linkedin.svg" alt="linkedin"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell-md-7">
+                            <div class="services-col d-flex">
+                                <div class="services-col-heading cell-md-4">
+                                    <h5 class="h5">Service</h5>
+                                    <div class="services-links">
+                                        <ul>
+                                            <li><a href="#">Verzendkosten</a></li>
+                                            <li><a href="#">Herroepingsrecht</a></li>
+                                            <li><a href="#">Privacyverklaring</a></li>
+                                            <li><a href="#">Algemene voorwaarden</a></li>
+                                            <li><a href="#">Disclaimer</a></li>
+                                            <li><a href="#">Contact</a></li>
+                                            <li><a href="#">Betalingsmethoden</a></li>
+                                            <li><a href="#">Matrix borden</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="services-col-heading cell-md-8">
+                                    <h5 class="h5">Assortiment</h5>
+                                       <div class="services-links">
+                                            <ul class="assortiment-links d-flex">
+                                                <li><a href="#">Verzendkosten</a></li>
+                                                <li><a href="#">Herroepingsrecht</a></li>
+                                                <li><a href="#">Privacyverklaring</a></li>
+                                                <li><a href="#">Algemene voorwaarden</a></li>
+                                                <li><a href="#">Disclaimer</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                                <li><a href="#">Betalingsmethoden</a></li>
+                                                <li><a href="#">Matrix borden</a></li>
+                                                <li><a href="#">RWX Flitsbalk</a></li>
+                                                <li><a href="#">RWX Traffic Advisor</a></li>
+                                                <li><a href="#">Legion Flitsbalk</a></li>
+                                                <li><a href="#">Silverblade Flitsbalk</a></li>
+                                                <li><a href="#">Aegis Flitsbalk</a></li>
+                                                <li><a href="#">BOA Flitsbalk</a></li>
+                                                <li><a href="#">Led flitsers</a></li>
+                                                <li><a href="#">Achteruitrij verlichting</a></li>
+                                                <li><a href="#">Verstralers</a></li>
+                                                <li><a href="#">Matrix borden</a></li>
+                                                <li><a href="#">Matrix borden</a></li>
+												<li><a href="#">Matrix borden</a></li>
+                                            </ul>
+                                       </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services-col-heading cell-md-2">
+							<h5>Contact Us</h5>
+								<div class="services-links">
+									<ul>
+										<li class="locate-us d-flex">
+											<div>
+												<a href="#"><img src="assets/images/location-pin.svg" alt="locate-us"></a>
+											</div>
+											<div>
+												<a>Mollevite 19, 6931 KE</a>
+												<a>Westervoort The Netherlands</a>
+											</div>
+										</li>
+										<li class="mail-us d-flex">
+											<div>
+												<a href="#"><img src="assets/images/mail-us.svg" alt="mail-us"></a>
+											</div>
+											<div>
+												<a>Heeft u vragen?</a>
+												<a>info@weltronic.nl</a>
+											</div>
+										</li>
+										<li class="call-us d-flex">
+											<div>
+												<a href="#"><img src="assets/images/call-us.svg" alt="call-us"></a>
+											</div>
+											<div>
+												<a>+31 (0) 26 442 44 30</a>
+												<a>Ma - Vr: 8:00 - 17:00</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+						</div>
+					</div>
+				</div>
+				<!-- Copyright Footer Section-->
+				<div class="copyright-footer">
+					<p>Copyright © 2022, Weltronic.nl, All Rights Reserved.</p>
+				</div>
+            </footer>
+        </div>
+
+        <!-- jquery library --> 
+        <script src="assets/js/jquery-3.5.1.min.js"></script>
+        <!--<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>-->
+
+        <!-- vendor js -->
+
+        <!-- theme script --> 
+        <script src="assets/js/scripts.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+button
+
+orange
+h=55px
+w=190px
+color-code= #F57D2D
+font-size=20px
+border-radius=5px
+dark-grey
+h=55px
+w=190px
+color-code= #333333
+font-size=20px
+border-radius=5px
+
+
+p
+font-size=20px
+line-height=
+letter-spacing=
+
+in-product description p 
+font-size=16px
+line-height=
+letter-spacing=
+
+
+
+h4=22px 
+h3=25px
+14px
+h6=18px

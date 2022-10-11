@@ -1,0 +1,887 @@
+/* CSS Document */
+
+/* Table of Contents
+-----------------------------------------------------------------------------
+=> Desktop
+=> Tablet
+=> Medium devices
+=> Small devices
+=> iPhone X landscape
+*/
+
+/* ----- Desktop ≥1024px and ≤1190 ----- */
+@media ( min-width: 1024px ) and ( max-width: 1199px ) {
+	/* Dhaka-Banner Section */
+	.banner-content-wrapper{
+		max-width: 530px;
+	}
+	.banner-heading {
+		line-height: 1;
+		letter-spacing: 2.48px;
+		margin-bottom: 8px;
+		font-size: 135px;
+	}
+	.banner-content {
+		font-size: 44px;
+		line-height: 1;
+		letter-spacing: 1.2px;
+	}
+	.dhaka-circle {
+		top: 36px;
+		left: 80%;
+	}
+	/* Dhaka-Background Section */
+	section.migrant-section {
+		padding-top: 21px !important;
+	}
+	.two-col-section {
+		padding: 55px 0;
+	}
+	.top-header .h2 {
+		font-size: 55px;
+	}
+	.right-content-col p {
+		font-size: 16px;
+	}
+	.right-content-col p + p {
+		margin-bottom: 24px;
+	}
+	.right-content-col {
+		margin-left: 35px;
+	}
+	.read-more-link a {
+		font-size: 20px;
+	}
+
+	/* Click and Read Section */
+
+	.other-details p {
+		font-size: 15px;
+	}
+	.other-details {
+	   padding: 59px 20px;
+	}
+
+	/* By-Author Section */
+	.by-author-main-content {
+		/* margin-left: 13px; */
+		margin-left: 47px;
+	}
+	.by-author-main-content p {
+		margin-bottom: 33px;
+		font-size: 15px;
+	}
+	.by-author-sub-description p{
+		font-size: 15px;
+	}
+	.round-image-box{
+		width: 402px;
+		height: 385px;
+	}
+	.read-commentary-link a {
+		font-size: 18px;
+	}
+	/* Dhaka-Translation Section */
+	.translation-section{
+		padding-top: 21px !important;
+	}
+	.translation-inner-wrapper {
+		padding: 34px 0;
+	}
+	.translation-content p {
+		letter-spacing: 0.10px;
+		font-size: 28px;
+		line-height: 1.7;
+		margin-bottom: 40px;
+	}
+	.search-bar form select {
+		max-width: 600px;
+		margin-bottom: 24px;
+		font-size: 27px;
+		line-height: 1;
+		letter-spacing: 0.10px;
+	}
+	.download-link .btn {
+		font-size: 18px;
+	}
+	/* Dhaka-Implementation-guide Section */
+	.implementation-guid-section{
+		padding-top: 21px !important;
+	}
+	.content-box p {
+		letter-spacing: 0.10px;
+		font-size: 22px;
+		line-height: 1.4;
+		margin-bottom: 44px;
+	}
+	.guide-image {
+		margin-bottom: 50px;
+	}
+
+	/* share and promote Section */
+	.social-media-inner-wrapper {
+		padding: 50px 0;
+	}
+	.social-media-link {
+		margin: 30px 0;
+	}
+	/* other resources section */
+	.other-resources-header h2{
+		font-size: 59px;
+	}
+	.content-box p {
+		font-size: 20px;
+		margin-bottom: 44px;
+	}
+	.other-resources-image {
+		padding: 0 34px;
+	}
+	.dhaka-logo {
+		margin-bottom: 60px;
+	}
+
+	/* Commentaries List Section */
+	.commentaries-header h2{
+		font-size: 50px;
+		}
+		.row-box {
+			align-items: center;
+			margin-bottom: 30px;
+		}
+		.principles-title h3 {
+		font-size: 25px;
+		line-height: 1.2;
+		}
+		
+		.principles-title h2 {
+		font-size: 46px;
+		}
+		.principle-description p{
+			font-size: 15px;
+		}
+}
+
+/* ----- Tablet ≥768px and ≤1023 ----- */
+@media ( min-width: 768px ) and ( max-width: 1023px ) {
+	/* Dhaka-Banner Section */
+	.container {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.banner-content-wrapper{
+		top: 11px;
+		max-width: 509px;
+	}
+	
+	.banner-heading {
+		letter-spacing: 2.2px;
+		font-size: 86px
+	}
+	.banner-content {
+		font-size: 30px;
+		letter-spacing: 1.15px;
+	}
+	.dhaka-circle {
+		top: 0;
+		left: 57%;
+	}
+	/* Dhaka-Background Section */
+	section.migrant-section.pt-5 {
+		padding-top: 21px !important;
+	}
+	.two-col-section {
+		padding: 40px 0;
+	}
+	.top-header .h2 {
+		font-size: 56px;
+		margin-bottom: -11px;
+	}
+	.right-content-col{
+		margin: 0 auto;
+	}
+	.right-content-col p {
+		font-size: 13px;
+	}
+	.right-content-col p + p {
+		margin-bottom: 21px;
+	}
+	.read-more-link a {
+		font-size: 14px;
+	}
+	/* Dhaka-click and read Section */
+	.about-wrapper {
+		padding: 50px 0;
+	}
+	.about-content-wrapper {
+		top: 14%;
+		left: 16%;
+		transform: translate(-14%);
+		max-width: 600px;
+	}
+	.about-background-image.active .other-details {
+		top: 0;
+	}
+	.other-details p {
+		font-size: 15px;
+	}
+	/* By author Section */
+
+	.by-author-main-content {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.by-author-description-content p {
+		font-size: 20px;
+		margin-bottom: 44px;
+	}
+	.by-author-main-content p {
+		margin-bottom: 33px;
+		font-size: 15px;
+	}
+	.by-author-sub-description p{
+		font-size: 15px;
+	}
+	.round-image-box{
+		width: 325px;
+		height: 325px;
+	}
+	.read-commentary-link a {
+		font-size: 18px;
+	}
+	.left-image-col {
+		text-align: center;
+	}
+	/* Dhaka-Translation Section */
+	.translation-section{
+		padding-top: 21px !important;
+	}
+	.translation-inner-wrapper {
+		padding: 34px 0;
+	}
+	.translation-content p {
+		letter-spacing: 0.10px;
+		font-size: 28px;
+		line-height: 1.7;
+		margin-bottom: 40px;
+	}
+	.search-bar form select {
+		max-width: 600px;
+		margin-bottom: 24px;
+		font-size: 27px;
+		line-height: 1;
+		letter-spacing: 0.10px;
+	}
+	.download-link .btn {
+		font-size: 18px;
+	}
+	/* Dhaka-Implementation-guide Section */
+	.implementation-guid-section{
+		padding-top: 35px !important;
+	}
+	.implementation-guid-header h2{
+		font-size: 55px;
+	}
+	.content-box p {
+		letter-spacing: 0.10px;
+		font-size: 22px;
+		line-height: 1.4;
+		margin-bottom: 44px;
+	}
+	.guide-image {
+		margin-bottom: 50px;
+	}
+	/* share and promote Section */
+	.social-media-inner-wrapper {
+		padding: 40px 0;
+	}
+	.share-and-promote-header h2{
+		font-size: 50px;
+	}
+	.social-media-link {
+		margin: 28px 0;
+	}
+	/* other resources section */
+	.other-resources-header h2{
+		font-size: 55px;
+	}
+	.other-resources-image-box.row {
+		margin-bottom: 100px;
+	}
+	.content-box p {
+		font-size: 18px;
+	}
+	.other-resources-image {
+		padding: 0 26px;
+	}
+	.dhaka-logo {
+		margin-bottom: 30px;
+	}
+	/* Commentaries List Section */
+		.commentaries-header h2{
+		font-size: 38px;
+		}
+		.row-box {
+			align-items: center;
+			margin-bottom: 30px;
+		}
+		.principles-title h3 {
+		font-size: 21px;
+		line-height: 1.2;
+		}
+		
+		.principles-title h2 {
+		font-size: 44px;
+		}
+		.principle-description p{
+			font-size: 14px;
+		}
+}
+
+/* ----- iPhone X landscape ≥375px and ≤812 ----- */
+@media ( min-width: 375px ) and ( max-width: 812px ) and ( orientation: landscape ) {
+	.container {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+}
+
+/* ----- Medium devices ≤767px ----- */
+@media ( max-width: 767px ) {
+	/* Dhaka-Banner Section */
+	.container {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.banner-content-wrapper{
+		max-width: 468px;
+	}
+	.banner-heading {
+		letter-spacing: 1.1px;
+		font-size: 75px;
+		margin-bottom: 0;
+	}
+	.banner-content {
+		font-size: 26px;
+		letter-spacing: 1.15px;
+	}
+	.dhaka-circle {
+		top: -5px;
+		left: 50%;
+		height: 100px;
+		width: 100px;
+	}
+	/* Dhaka-Background Section */
+	.two-col-section {
+		padding: 40px 0;
+	}
+	.top-header .h2{
+		margin-bottom: -6px;
+		font-size: 49px;
+	}
+	.left-image-col.col-md-5 {
+		text-align: center;
+	}
+	.right-content-col {
+		padding: 20px 22px;
+		margin-left: 0;
+	}
+	.right-content-col p{
+		font-size: 16px;
+	}
+	.right-content-col p + p {
+		margin-bottom: 21px;
+	}
+	.read-more-link a {
+		font-size: 16px;
+	}
+
+	/* Dhaka-click and read Section */
+	.about-wrapper {
+		padding: 50px 0;
+	}
+	.about-content-wrapper {
+		top: 14%;
+		left: 14%;
+		transform: translate(-14%);
+		max-width: 582px;
+	}
+	.about-content {
+		font-size: 33px;
+		line-height: 1;
+		letter-spacing: 1px;
+	}
+	.about-background-image img{
+		box-shadow: rgb(127 127 127) 12px 12px 0px;
+	}
+	.about-background-image:hover .other-details {
+		top: 0;
+	}
+	.other-details {
+		padding: 42px 20px;
+	}
+	.other-details p {
+		font-size: 13px;
+	}
+	/* By author Section */
+	.by-author-description-content p {
+		font-size: 20px;
+		margin-bottom: 44px;
+	}
+	.by-author-main-content {
+		margin-top: 22px;
+	}
+	.by-author-inner-wrapper {
+		padding: 30px 0;
+	}
+	ul.slick-dots {
+		display: flex;
+		justify-content: center;
+	}
+	.slick-dots  li {
+		list-style-type: none;
+		margin: 10px;
+		text-align: center;
+	}
+	.slick-dots li button {
+		height: 20px;
+		width: 20px;
+		background-color:transparent;
+		font-size: 0px;
+		list-style-type: none;
+		border-radius: 100%;
+		outline: none;
+		transition: ease-in-out 0.3s;
+		border: 3px solid #1c2b4f;
+		padding: 5px;
+	}
+	.slick-dots .slick-active button {
+		background-color: #1c2b4f;
+		border: 3px solid #fff;
+	}
+	.read-commentary-link {
+		margin-bottom: 20px;
+	}
+	/* Dhaka-Translation Section */
+	.translation-header h2{
+		font-size: 56px;
+	}
+	.translation-section{
+		padding-top: 21px !important;
+	}
+	.translation-inner-wrapper {
+		padding: 34px 0;
+	}
+	.translation-content p {
+		letter-spacing: 0.10px;
+		font-size: 24px;
+		line-height: 1.7;
+		margin-bottom: 40px;
+	}
+	/* .search-bar form select {
+		max-width: 600px;
+		margin-bottom: 24px;
+		font-size: 23px;
+		line-height: 1;
+		letter-spacing: 0.10px;
+	} */
+	.search-bar form {
+		font-size: 18px;
+	}
+	.select2-container--default .select2-selection--single .select2-selection__placeholder {
+		font-size: 18px;
+	}
+	span.select2 {
+		width: 500px;
+		max-width: 500px;
+	}
+	.download-link .btn {
+		font-size: 17px;
+	}
+	/* Dhaka-Implementation-guide Section */
+
+	.implementation-guid-section{
+		padding-top: 35px !important;
+	}
+	.implementation-guid-header h2{
+		font-size: 48px;
+	}
+	.content-box p {
+		letter-spacing: 0.10px;
+		font-size: 18px;
+		line-height: 1.4;
+		margin-bottom: 44px;
+	}
+	.guide-image {
+		margin-bottom: 29px;
+	}
+	.download-link .btn {
+		font-size: 16px;
+	}
+	/* share and promote Section */
+	.social-media-inner-wrapper {
+		padding: 40px 0;
+	}
+	.share-and-promote-header h2{
+		font-size: 40px;
+		margin-bottom: -8px;
+	}
+	.social-media-link {
+		margin: 28px 0;
+	}
+	.social-media-link a{
+		font-size: 17px;
+	}
+	/* other resources section */
+	
+	.other-resources-header h2{
+		font-size: 40px;
+	}
+	.resources-content-box p {
+		font-size: 16px;
+		margin-bottom: 30px;
+	}
+	.other-resources-image {
+		padding: 12px 75px;
+		text-align: center;
+	}
+	.other-resources-image-box.row {
+		margin-bottom: 100px;
+	}
+	.dhaka-logo {
+		margin-bottom: 30px;
+	}
+
+	.left-image-col {
+		justify-content: center;
+		display: flex;
+	}
+
+	/* Commentaries-list section */
+	.commentaries-header h2{
+		font-size: 31px;
+	}
+	.row-box {
+		align-items: flex-start;
+		margin-bottom: 25px;
+		flex-direction: column;
+	}
+	.principles-title h3 {
+		font-size: 22px;
+		line-height: 1;
+		margin: 0;
+	}
+	.principles-title h2 {
+		font-size: 35px;
+	}
+	.principle-description p{
+		font-size: 14px;
+	}
+	.discover-section{
+		margin-top: 30px;	
+	}
+	.round-image-box{
+		padding: 5px;
+		width: 300px;
+	height: 300px;
+	}
+	.commentaries-image-column{
+		margin-bottom: 5px;
+	}
+	.container-lg{
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.implementation-guid-header h2 {
+	font-size: 34px;
+}
+
+.background-image-inner {
+	padding-top: 75%;
+}
+}
+
+/* ----- Small devices ≤640px ----- */
+@media ( max-width: 640px ) {
+	/* Dhaka-Banner Section */
+	.banner-content-wrapper {
+		max-width: 300px;
+	}
+	.banner-heading {
+		letter-spacing: 1.1px;
+		font-size: 50px;
+  	 	margin-bottom: 3px;
+	}
+	.banner-content {
+		font-size: 21px;
+		letter-spacing: 1px;
+	}
+	
+	.banner-content-wrapper {
+		top: 10%;
+		left: 15%;
+	}
+	.dhaka-circle {
+		top: 9px;
+  		left: 53%;
+	}
+	.dhaka-circle img {
+		height: 60px;
+		width: 60px;
+	}
+	/* Click and Read Section */
+	.about-background-image {
+		padding-top: 50%;
+	}
+	.about-wrapper {
+		padding: 50px 0;
+	}
+	.about-background-image:hover .other-details {
+		top: 0;
+	}
+	.about-content {
+		font-size: 20px;
+		line-height: 1;
+	}
+	.other-details {
+		padding: 20px 20px;
+		height: 100%;
+		overflow: scroll;
+	}
+	.other-details p {
+		font-size: 12px;
+	}
+	/* By author Section */
+	.by-author-description-content p {
+		font-size: 18px;
+		margin-bottom: 22px;
+	}
+	.by-author-main-content p {
+		font-size: 15px;
+		margin-bottom: 22px;
+	}
+	.by-author-main-content {
+		margin-top: 18px;
+	}
+
+	.by-author-inner-wrapper {
+		padding: 30px 0;
+	}
+	
+	.read-commentary-link a{
+		font-size: 16px;
+	}
+	
+	/* Dhaka-Translation Section */
+	.translation-header h2{
+		font-size: 40px;
+		margin-bottom: -10px;
+	}
+	.translation-section{
+		padding-top: 21px !important;
+	}
+	.translation-inner-wrapper {
+		padding: 34px 0;
+	}
+	.translation-content p {
+		letter-spacing: 0.10px;
+		font-size: 21px;
+		line-height: 1.7;
+		margin-bottom: 23px;
+	}
+	/* .search-bar form select {
+		max-width: 600px;
+		margin-bottom: 24px;
+		font-size: 18px;
+		line-height: 1;
+		letter-spacing: 0.10px;
+	} */
+	span.select2 {
+		width: 300px;
+		max-width: 300px;
+	}
+	.download-link .btn {
+		font-size: 17px;
+	}
+	/* Dhaka-Implementation-guide Section */
+	
+	.content-box p {
+		letter-spacing: 0.10px;
+		font-size: 16px;
+		line-height: 1.4;
+		margin-bottom: 44px;
+	}
+	/* Commentaries-list section */
+	.commentaries-header h2{
+		font-size: 30px;
+	}	
+}
+
+
+
+@media (max-width: 1300px) {
+	button.slick-arrow.slick-prev {
+		left: -30px;
+	}
+	button.slick-next.slick-arrow {
+		right: -30px;
+	}
+	.pie-wrapper #piemenu {
+		height: 590px;
+		width: 590px;
+	}
+	.pie-wrapper #piemenu-discover {
+		height: 590px;
+		width: 590px;
+	}
+	.pie-wrapper {
+		margin-right: auto;
+		width: 420px;
+	}
+	[class|=wheelnav-piemenu-title] > tspan {
+		font-size: 9px;
+	}
+	.pie-wrapper .dhaka-principles-circle {
+		width: 260px;
+		height: 260px;
+	}
+	.dhaka-principles-circle .circle-title {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.pie-wrapper {
+		margin-bottom: 80px;
+	}
+	.additional-slider {
+		text-align: center;
+	}
+	.additional-select {
+		margin-top: 90px;
+		margin-bottom: 0;
+	}
+	.about-wrapper {
+        padding: 80px 0 0;
+    }
+    .discover-section {
+        margin: 80px 0;
+    }
+	.resources-content-box p {
+		margin-bottom: 80px;
+	}
+}
+@media (max-width: 1024px) {
+	button.slick-arrow.slick-prev {
+		left: -5px;
+	}
+	button.slick-next.slick-arrow {
+		right: -5px;
+	}
+}
+@media (max-width: 767px) {
+	.pie-wrapper #piemenu {
+		height: 500px;
+		width: 500px;
+	}
+	.pie-wrapper #piemenu-discover {
+		height: 500px;
+		width: 500px;
+	}
+	.pie-wrapper {
+		margin-right: auto;
+		margin-left: auto;
+		width: 330px;
+	}
+	[class|=wheelnav-piemenu-title] > tspan {
+		font-size: 9px;
+	}
+    [class|=wheelnav-piemenu-discover-title] > tspan {
+        font-size: 9px;
+    }
+	.pie-wrapper .dhaka-principles-circle {
+		width: 170px;
+		height: 170px;
+	}
+	.dhaka-principles-circle .circle-title {
+		font-size: 16px;
+	}
+	.principles-circle-title {
+		display: none;
+	}
+	.dhaka-principles-circle .migrant-text {
+		display: none;
+	}
+    .discover-content-box {
+        padding: 20px;
+    }
+    .additional-content p {
+        font-size: 14px;
+    }
+    .additional-content h4 {
+        font-size: 18px;
+    }
+    .discover-content-box .h3 {
+        font-size: 24px;
+    }
+    .discover-content-box .h3 br {
+        display: none;
+    }
+    .discover-content-box  p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .btn {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 640px) {
+	.top-header .h2 {
+		font-size: 42px;
+	}
+	.about-wrapper {
+        padding: 50px 0 0;
+    }
+    .discover-section {
+        margin: 50px 0;
+    }
+	.resources-content-box p {
+		margin-bottom: 50px;
+	}
+}
+
+@media (max-width: 520px) {
+	.pie-wrapper #piemenu {
+		height: 360px;
+		width: 300px;
+	}
+	.pie-wrapper #piemenu-discover {
+		height: 320px;
+		width: 320px;
+	}
+	.pie-wrapper.discover-circle {
+		width: 150px;
+		margin-bottom: 110px;
+	}
+	.pie-wrapper {
+		margin-right: auto;
+		margin-left: auto;
+		width: 128px;
+		margin-bottom: 80px;
+	}
+	.pie-wrapper .dhaka-principles-circle {
+		width: 120px;
+		height: 120px;
+	}
+    [class|=wheelnav-piemenu-title] > tspan {
+		font-size: 7px;
+	}
+    [class|=wheelnav-piemenu-discover-title] > tspan {
+        font-size: 7px;
+    }
+    .click-to-discover-text svg {
+        top: -75px;
+        left: -75px;
+    }
+}
