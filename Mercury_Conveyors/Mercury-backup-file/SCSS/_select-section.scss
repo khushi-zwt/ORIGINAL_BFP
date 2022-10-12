@@ -1,0 +1,36 @@
+// variable and mixin
+
+@import 'app/scss/abstracts/_core';
+
+.select-section{
+    background-color: $primary;
+    padding: rem(50px) 0;
+    .select-wrapper{
+        max-width: rem(1200px);
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        @include respond-below(sm){
+            display: block;
+            padding: rem(47px) rem(60px) rem(27px);
+        }
+        select{
+            background-color: $block-bg;
+            color: $white;
+            text-transform: capitalize;
+            background-image: url(#{$img}/select-down.svg);
+            width: 100%;
+            margin-left:rem(16px);
+            margin-right:rem(16px);
+            padding-left: rem(22px);
+            border-radius: rem(10px);
+            background-size: rem(23px);
+            @include respond-below(sm){
+                margin-bottom: 22px;
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+    }
+}

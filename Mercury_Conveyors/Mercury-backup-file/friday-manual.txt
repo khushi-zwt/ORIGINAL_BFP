@@ -1,0 +1,29 @@
+-Mercury Conveyors
+-About MCS Page dynamic content populating
+-About MCS Page (Meet the team) Section dynamic fetching
+-ACF Field and Block Creation
+-Conditioning structure
+-Inserting other Blocks
+
+-Mercury Conveyors
+-Contact Page Banner dynamic content populating
+-How can we Help  dynamic content populating
+-Conditioning Structure
+-ACF Fields and Blocks Creation for both the blocks
+
+
+-Mercury Conveyors
+-Creating Contact From using CF7
+-Creating Order Form using CF7
+-front-end Fetching and testing field
+-Conditioning Post Banner Structure
+
+
+meet the team        (Dynamic front-fetching and conditioning structure )
+fifty-fifty-banner     (Dynamic front-fetching and conditioning structure )
+Similar Post Banner (ACF Fields and Block creation  and dynamic front-fetching) (Case-Study and Blog Post- Banner)
+Contact From 7        ( ACF Fields and Block creation  and dynamic front-fetching) 
+Contact Page Banner (ACF Field and Block creation and dynamic front-fetching)
+How can we Help      (ACF Field and Block creation and dynamic front-fetching)
+
+45 min (meeting)

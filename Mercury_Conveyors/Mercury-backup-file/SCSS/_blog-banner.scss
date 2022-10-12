@@ -1,0 +1,86 @@
+// .blog-banner{
+//         *{
+//             color:$white;
+//         }
+//         @include respond-below(md){
+//             background-color: $primary;
+//         }
+//         .blog-banner-left{
+//             -webkit-clip-path: polygon(0% 0%,100% 0,100% 0,100% 100%,100% 87%,0 100%,0 100%,0 0);
+//             clip-path: polygon(0% 0%,100% 0,100% 0,100% 100%,100% 87%,0 100%,0 100%,0 0);
+//             position: relative;
+//             padding-top: 100%;
+//             @include respond-below(md){
+//                 clip-path: polygon(0 0,100% 0,100% 0,100% 100%,100% 92%,0 100%,0 100%,0 0);
+//                 padding-top: 60%;
+//             }
+//             @include respond-below(sm){
+//                 padding-top: 80%;
+//             }
+//             img{
+//                 height:100%;
+//                 width: 100%;
+//                 object-fit: cover;
+//                 position: absolute;
+//                 top: 0;
+//                 left: 0;
+//             }
+//         }
+        
+//        .blog-banner-right {
+//             height: 100%;
+//             text-align: left;
+//             background-color: $primary;
+//             -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 87%, 0 100%, 0 0);
+//             clip-path: polygon(0% 0%, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 87%, 0 100%, 0 0);
+//             @include respond-below(md){
+//                 clip-path: none;
+//             }
+//           .right-content{
+//             display: flex;
+//             align-items:  baseline;
+//             justify-content: center;
+//             max-width: rem(554px);
+//             flex-direction: column;
+//             margin: 0 auto;
+//             height: 100%;
+//             width: 100%;
+//             @include respond-below(xl){
+//                 padding: 0 rem(20px);
+//             }
+//             @include respond-below(md){
+//                 padding: rem(70px) 0 rem(90px);
+//                 align-items:  center;
+//             }
+//             @include respond-below(sm){
+//                 padding: rem(70px) rem(50px) rem(90px);
+//             }
+//             .h3{
+//                 margin-bottom: rem(130px);
+//                 @include respond-below(xl){
+//                     font-size: rem(30px);
+//                 }
+//                 @include respond-below(lg){
+//                     font-size: rem(25px);
+//                     margin-bottom: rem(25px);
+//                 }
+//                 @include respond-below(md){
+//                     margin-bottom: rem(70px);
+//                 }
+//             }
+           
+//           }  
+//           .btn-link{
+    
+//             &:hover{
+//                 color: $secondary;
+//             }
+//             &:after{
+//                 @include respond-below(md){
+//                     color: $white;
+//                 }
+//             }
+//           }
+    
+//         }
+//     }

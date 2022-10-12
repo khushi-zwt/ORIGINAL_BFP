@@ -1,0 +1,14 @@
+		// acf_register_block_type(array(
+        //     'name'              => 'banner-image-only',
+        //     'title'             => __('Banner image only'),
+        //     'description'       => __('A custom Banner image only'),
+		// 	'render_callback'   =>  'page_builder_acf_block_render_callback',
+		// 	'category'          => 'maveroc',
+		// 	'icon'              => 'welcome-write-blog',
+        //     'keywords'          => array('Banner image only'),
+        // ));
+
+
+//   if( has_block( 'acf/banner-image-only' ) ) {
+//     wp_enqueue_style( 'banner-image-only', get_theme_file_uri( '/app/css/blocks/banner-image-only.css' ), '1.0', 'all' );
+//   }

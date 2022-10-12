@@ -1,0 +1,165 @@
+//variable and mixin
+
+// @import 'app/scss/abstracts/_core';
+
+.order_form{
+	// display: block;
+    padding: rem(130px) 0 rem(100px);
+    @include respond-below(xl){
+        padding: rem(100px) 0 rem(800px);
+    }
+    @include respond-below(md){
+        padding: rem(80px) 0 rem(85px);
+    }
+    .titles_wrapper{
+        max-width: rem(936px);
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        margin-bottom: rem(120px);
+        @include respond-below(xl){
+           padding: 0 rem(20px);       
+        }
+        @include respond-below(lg){
+             margin-bottom: rem(80px);       
+        }
+        @include respond-below(md){
+             margin-bottom: rem(53px);  
+             padding: 0 rem(40px);            
+        }
+        .h1{
+            margin-bottom: rem(70px);
+            @include respond-below(xl){
+                margin-bottom: rem(50px);       
+           }
+            @include respond-below(md){
+                margin-bottom: rem(33px);  
+                font-size: rem(32px);     
+           }
+        }
+        p{
+            font-size: rem(24px);
+            line-height: 1.5;
+            @include respond-below(xl){
+                font-size: rem(20px);       
+           }
+           @include respond-below(md){
+            font-size: $font-size-small;     
+        }
+        }
+    }
+    .order_form_wrapper{
+        max-width: rem(684px);
+        padding: 0 rem(20px);
+        margin: 0 auto;
+    }
+    label{
+		@include respond-below(md){
+			margin-bottom: rem(24px);
+		}
+	}
+	br{
+		display: none;
+	}
+    input , textarea , .e_border {
+        border: 1px solid $primary; 
+        border-radius: 4px;
+        padding: 0 rem(16px);
+        font-size: $font-size-base;
+		@include respond-below(md){
+			font-size: $font-size-small;
+			padding: rem(25px) rem(20px);
+		}
+    }
+    .e_border{
+        padding: rem(10px) rem(16px) 0px;
+        span{
+            
+            font-weight: bold;
+            font-size: $font-size-large;
+            margin-bottom: rem(10px);
+        }
+        select{
+            border: 1px solid $primary;
+            border-radius: 4px;
+            height: rem(27px);
+            text-align: center;
+            font-size: $font-size-small;
+            padding: 0 rem(14px);
+            width:100%;
+            
+        }
+        .select2 {
+            width: 100%;
+            ul{
+                display: block;
+                margin: 10px 5px;
+            }
+            li{
+                background-color: $form-select;
+                padding: rem(3px) rem(20px) rem(3px) rem(27px);
+                margin-left: rem(10px);
+                .select2-selection__choice__remove{
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+                span{
+                    font-size: $font-size-small;
+                    font-weight: normal;
+                    margin-top: 0;
+                    // padding: rem(10px) rem(15px);
+                }
+            }
+            span{
+                margin: 0;
+                padding: 0;
+            }
+            textarea{
+                margin: 0;
+                height: 0;
+            }
+        }
+    }
+    textarea{
+        padding: rem(10px) rem(16px);
+		margin-bottom: rem(103px);
+		
+		@include respond-below(md){
+			height: rem(304px);
+			margin-bottom: rem(60px);
+		}
+    }
+    .button-link {
+		margin-bottom: rem(6px);
+		margin-top: rem(6px);
+		color: $primary;
+		font-size: rem(40px);
+		font-weight: 700;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: inherit;
+		transition: ease-in-out 0.4s;
+		text-decoration: none;
+        background-image: url( #{$img}/right-arrow.svg);
+        border: none;
+        background-size: rem(66px);
+        background-position: right;
+        background-repeat: no-repeat;
+        padding-right: rem(110px);
+        margin: 0 auto;
+		display: block;
+		@include respond-below(xxl) {
+			font-size:rem(30px);
+		}
+		@include respond-below(sm) {
+			font-size: rem(21px);
+			background-size: rem(27px);
+			padding-right: rem(60px);
+
+		}
+		&:hover,
+		a:hover & {
+			color: $secondary;
+		}
+	}
+}

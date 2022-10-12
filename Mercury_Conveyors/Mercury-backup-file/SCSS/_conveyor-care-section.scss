@@ -1,0 +1,115 @@
+.conveyor-care-section{
+    padding:rem(140px) 0;
+    @include respond-below(lg){
+        padding:rem(80px) 0;
+    }
+    @include respond-below(md){
+        padding:rem(73px) 0 0;
+    }
+    .container{
+        max-width: rem(1380px);
+        @include respond-below(sm){
+            padding:0;
+        }
+    }
+    .h1{
+        margin-bottom: rem(155px);
+        text-align: center;
+
+        @include respond-below(xl){
+            margin-bottom: rem(100px);
+        }
+        @include respond-below(lg){
+            margin-bottom: rem(70px);
+        }
+        @include respond-below(sm){
+            margin-bottom: rem(31px);
+            font-size: rem(32px);
+        }
+
+    }
+    .left-conveyor-section{
+        max-width: rem(578px);
+        
+        @include respond-below(xl){
+            margin: 0 rem(20px);
+        }
+        @include respond-below(md){
+            text-align: center;
+            max-width: 100%;
+        }
+        @include respond-below(sm){
+          padding: 0 rem(40px);
+          margin: 0 ;
+        }
+
+        .h3{
+            margin-bottom: rem(52px);
+
+            @include respond-below(xl){
+                margin-bottom: rem(40px);
+            }
+            @include respond-below(lg){
+                margin-bottom: rem(30px);
+            }
+            @include respond-below(md){
+                font-size: rem(25px);
+                margin-bottom: rem(18px);
+            }
+            @include respond-below(sm){
+                font-size: $font-size-base;
+            }
+        }
+        p{
+            font-size: rem(24px);
+            color: $primary;
+            line-height: 1.5 ;
+            margin-bottom: rem(65px);
+
+            @include respond-below(xl){
+                margin-bottom: rem(40px);
+            }
+            @include respond-below(lg){
+                font-size: $font-size-large;
+                margin-bottom: rem(30px);
+            }
+            @include respond-below(md){
+                margin-bottom: rem(20px);
+            }
+            @include respond-below(sm){
+                font-size: $font-size-small;
+            }
+        }
+        .btn{
+            padding: rem(18px) 0;
+            @include respond-below(md){
+                margin-bottom: rem(20px);
+            }
+            @include respond-below(sm){
+                margin-bottom: rem(40px);
+            }
+        }
+    }
+    .conveyor-image-parent{
+        position: relative;
+        padding-top: 82.5%;
+
+        @include respond-below(xl){
+            margin: 0 rem(20px);
+            padding-top: 80%;
+        }
+        @include respond-below(sm){
+            margin: 0 ;  
+            padding-top: 64%;
+        }
+
+        img{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            top:0;
+            left: 0;
+        }
+    }
+}

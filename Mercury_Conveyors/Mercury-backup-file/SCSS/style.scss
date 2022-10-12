@@ -1,0 +1,44 @@
+// variable and mixin
+@import 'abstracts/core' ;
+
+// bs4 vender 
+@import 'vendors/core';
+
+// base
+@import 'base/core';
+
+// layout
+@import 'layout/core';
+
+// @import 'blocks/home-banner';
+// @import 'blocks/content-section';
+// @import 'blocks/conveyor-care-section';
+// @import 'blocks/case-study';
+// @import 'blocks/get-in-touch-section';
+// @import 'blocks/blog';
+// @import 'blocks/product-slider-section';
+// @import 'blocks/optional-extras';
+// @import 'blocks/fifty-fifty-black-bg-section';
+// @import 'blocks/product-information';
+// @import 'blocks/brand-and-model';
+// @import 'blocks/product-banner';
+// @import 'blocks/select-section';
+// @import 'blocks/banner-image-only';
+// @import 'blocks/conveyor-content-wrapper';
+// @import 'blocks/about-mcs-banner';
+// @import 'blocks/about-content-block';
+// @import 'blocks/three-round-block';
+// @import 'blocks/case-studies-banner';
+// @import 'blocks/case-study-detail-banner';
+@import 'blocks/social-icon-and-button';
+// @import 'blocks/blog-banner';
+// @import 'blocks/blog-listing';
+// @import 'blocks/meet-the-team';
+// @import 'blocks/contact-page-banner';
+// @import 'blocks/how-can-we-help';
+// @import 'blocks/directors';
+// @import 'blocks/site-address';
+// @import 'blocks/gallery-slider';
+@import 'blocks/contact-form-block';
+@import 'blocks/order-form';
+ 

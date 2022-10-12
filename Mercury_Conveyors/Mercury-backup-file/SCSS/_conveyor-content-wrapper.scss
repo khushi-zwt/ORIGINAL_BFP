@@ -1,0 +1,95 @@
+.conveyor-content-wrapper{
+    padding: rem(140px) 0 rem(190px);
+
+    @include respond-below(lg){
+        padding: rem(100px) 0 rem(140px);
+    }
+    @include respond-below(md){
+        padding: rem(70px) 0 rem(100px);
+    }
+
+    .container{
+        max-width: rem(1100px);
+    }
+    .conveyor-content {
+        .h1{
+            margin-bottom: rem(90px);
+            @include respond-below(md){
+               margin-bottom: rem(50px);
+            }
+            @include respond-below(sm){
+                font-size: rem(21px);
+               margin-bottom: rem(30px);
+            }
+        }
+        p{
+            font-size: rem(30px);
+            line-height: 1.5;
+            margin-bottom: rem(130px);
+            @include respond-below(lg){
+               margin-bottom: rem(70px);
+            }
+            @include respond-below(md){
+                font-size:$font-size-large;
+            }
+            @include respond-below(sm){
+                font-size:$font-size-small;
+               margin-bottom: rem(55px);
+            }
+        }  
+    }
+    .conveyor-care-round-shape {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: rem(150px);
+        @include respond-below(lg){
+            margin-bottom: rem(100px);
+         }
+        @include respond-below(md){
+            margin-bottom: rem(70px);
+        }
+            .h5 {
+                font-size: rem(65px);
+                margin: 0;
+                @include respond-below(md){
+                    font-size: rem(43px);
+                }
+            }
+            span {
+                font-size: rem(24px);
+                @include respond-below(md){
+                    font-size: $font-size-large;
+                }
+            }
+            .care-round-shape {
+                border: 2px solid $secondary;
+                border-radius: 100%;
+                height: rem(219px);
+                width: rem(219px);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: rem(20px);
+                @include respond-below(md){
+                    height: rem(146px);
+                    width: rem(146px); 
+                    margin: 0 rem(16px) rem(30px);
+                }
+            }
+        }
+    .converyor-care-paragraph{
+        p{
+            font-size: $font-size-large;
+            line-height: 1.8;
+            text-align: left;
+            margin-bottom: rem(40px);
+            @include respond-below(md){
+                font-size: $font-size-small;
+                margin-bottom: rem(25px);
+
+            }
+        }
+      }
+}

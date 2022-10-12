@@ -1,0 +1,228 @@
+.wrapper {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	width: 100%;
+	min-height: 100%;
+	background-color: $white;
+}
+.main-container {
+	width: 100%;
+}
+
+/* slick slider */
+.slick-slider-controls{
+	position: relative;
+	display: flex;
+	align-items: center;
+	.slick-arrow {
+		position: relative;
+		top: auto;
+		left: auto;
+		right: auto;
+		margin: rem(30px) 0;
+		margin-right: rem(10px);
+		&:first-child {
+			margin-left: rem(35px);
+		}
+	}
+}
+
+.slick-dots {
+	li {
+		padding: 0 rem(5px);
+	}
+}
+
+/* Body Scroll Stop */
+body {
+	padding-top: 110px;
+	@include respond-below(xl) {
+		padding-top: 90px;
+	}
+	&.is-scroll {
+		overflow: hidden;
+	}
+}
+/* Aspect Ration */
+.aspect-ratio {
+	@include pictureImg($pos: absolute);
+} 
+/* Password Protect Page */
+.post-password {
+    position: relative;
+    padding: rem(70px) 0;
+	.post-password-form {
+		p {
+			+ p {
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				margin: 0;
+				padding-top: rem(20px);
+			}
+		}
+		label {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			margin: 0;
+			flex-direction: column;
+		}
+		input {
+			margin: 5px;
+		}
+		input[type=password] {
+			width: rem(350px);
+		}
+	}
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.gallery-block{
+    padding:  rem(50px) 0;
+    .container{
+        max-width: rem(1100px);
+        @include respond-below(xl){
+            max-width: rem(800px);
+        }
+    }
+   .gallery-slider{
+    .slick-dots{
+        margin-top: rem(48px);
+        position: static;
+            li{ 
+                &.slick-active{
+                    button{
+                        background-color: $primary;
+                    }
+                }
+             button{
+                 background-color: $secondary;
+             }
+            }
+         
+    }
+    .slick-arrow{
+        top: 50%;
+        transform: translateY(-106%);
+        @include respond-below(xl){
+         transform: translateY(-55%);
+        }
+        &.slick-prev{
+            left: rem(-330px);
+            @include respond-below(large){
+                left: rem(-281px);
+            }
+            @include respond-below(xxl){
+                left: rem(-184px);
+            }
+            @include respond-below(xm){
+                left: rem(-120px);
+            }
+        }
+        &.slick-next{
+            right: rem(-311px);
+            @include respond-below(large){
+                right: rem(-262px);
+            }
+            @include respond-below(xxl){
+                right: rem(-149px);
+            }
+            @include respond-below(xm){
+                right: rem(-84px);
+            }
+        }
+    }
+   }
+
+
+// case studies detail gallery block
+    .gallery-wrapper{
+        position: relative;
+        padding-top: 53%;
+        @include respond-below(sm){
+            padding-top: 60%;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
+    }
+}
+
+
+
+// single post detail banner
+
+.single-post-banner{
+    position: relative;
+    padding-top: 31.5%;
+    clip-path: polygon(51% 0, 100% 0, 100% 59%, 100% 80%, 71% 100%, 0 73%, 0 0);
+    @include respond-below(md){
+        padding-top: 54.5%; 
+        clip-path: polygon(51% 0,100% 0,100% 59%,100% 83%,74% 100%,0 78%,0 0);   
+    }
+    @include respond-below(sm){
+        padding-top: 90.5%; 
+        clip-path: polygon(51% 0,100% 0,100% 59%,100% 88%,72% 100%,0 85%,0 0);
+    }
+    img{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+    }
+}
+
+
+// contact form
+
+.contact_form{
+	.btn-link {
+		margin-bottom: rem(6px);
+		margin-top: rem(6px);
+		color: $primary;
+		font-size: rem(40px);
+		font-weight: 700;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: inherit;
+		transition: ease-in-out 0.4s;
+		text-decoration: none;
+        background-image: url('../../images/right-arrow.svg');
+        border: none;
+        background-size: rem(66px);
+        background-position: right;
+        background-repeat: no-repeat;
+        padding-right: rem(110px);
+        margin: 0 auto;
+		display: block;
+		@include respond-below(xxl) {
+			font-size:rem(30px);
+		}
+		@include respond-below(sm) {
+			font-size: rem(21px);
+			background-size: rem(27px);
+			padding-right: rem(60px);
+
+		}
+		&:hover,
+		a:hover & {
+			color: $secondary;
+		}
+	}
+}

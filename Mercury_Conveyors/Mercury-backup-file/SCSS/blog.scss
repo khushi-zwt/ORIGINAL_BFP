@@ -1,0 +1,200 @@
+// variable and mixin
+
+@import 'app/scss/abstracts/_core';
+
+
+.blog-section{
+    background-color: $primary;
+    clip-path: polygon(0 0,100% 0,100% 50%,100% 91%,0 100%,0 50%);
+    padding: rem(153px) 0 rem(260px);
+    
+    @include respond-below(xl){
+         padding: rem(100px) 0 rem(200px);
+    }
+    @include respond-below(md){
+         padding: rem(70px) 0 rem(100px);
+    }
+    @include respond-below(sm){
+        clip-path: polygon(0 0,100% 0,100% 50%,100% 97%,0 100%,0 50%);
+    }
+    .h1{
+        color:$white;
+        margin-bottom: rem(115px);
+
+        @include respond-below(lg){
+            margin-bottom: rem(80px);   
+        }
+        @include respond-below(md){
+            margin-bottom: rem(38px);   
+        }
+
+    }
+   
+    .blog-wrapper{
+        .slick-dots{
+            li{
+                &.slick-active{
+                   button{
+                    background-color:$secondary;
+                   }
+                }
+                button{
+                    background-color: $white;
+                }
+            }
+        }
+        .slick-slide{
+			height: auto;
+            opacity: 0.3;
+            transition: 0.3s ease;
+			& > div{
+				height: 100%;
+			}
+        }  
+        .slick-active, .slick-current{
+            opacity: 1;
+        }  
+        .slick-arrow{
+            top: calc(50% - 137px);
+            @include respond-below(xxl){
+                 top: calc(50% - 100px);
+            }
+            @include respond-below(lg){
+                 top: calc(50% - 60px);
+            }
+           
+            &:hover::after{
+                color: $white;
+            }
+               
+      
+            &::after{
+                color: $secondary;
+                font-size: rem(84px);
+                @include respond-below(xxl){
+                    font-size: rem(60px);
+                }
+                @include respond-below(lg){
+                    font-size: rem(40px);
+                }
+            }
+            &.slick-prev{
+                left: rem(108px);
+                @include respond-below(lg){
+                    left: rem(50px);
+                }
+            }
+            &.slick-next{
+                right: rem(108px);
+                @include respond-below(lg){
+                    right: rem(50px);
+                }
+            }
+        }
+        a.block{
+			padding: 0 rem(19px);
+			flex-direction: column;
+			height: 100%;
+			display: flex !important;
+            @include respond-below(lg){
+                padding: 0 rem(10px);
+            }
+            @include respond-below(md){
+                padding: 0 rem(30px);
+                margin-bottom: rem(45px);
+            }
+        }
+       .blog-img-wrapper{
+            position: relative;
+            padding-top: 90%;
+            @include respond-below(md){
+                padding-top: 80%;
+            }
+            @include respond-below(sm){
+                padding-top: 75%;
+            }
+            img{
+                position: absolute;
+                top:0;
+                left:0;
+                object-fit: cover;
+                width:100%;
+                height:100%;
+            }
+       }
+    }
+    .blog-content{
+        padding: rem(36px) rem(50px);
+        background-color: $block-bg ;
+		flex-grow: 1;
+		display: flex;
+		flex-direction: column;
+        @include respond-below(xxl){
+            padding: rem(30px) rem(40px);
+        }
+        @include respond-below(lg){
+            padding: rem(25px);
+        }
+        @include respond-below(md){
+            padding: rem(31px) rem(45px) rem(41px);
+        }
+        .h4{
+            color: $white;
+            font-size: rem(28px);
+            margin-bottom: rem(18px);
+
+            @include respond-below(xxl){
+                font-size: rem(24px);
+            }
+            @include respond-below(lg){
+                font-size: $font-size-large;
+            }
+            @include respond-below(md){
+                font-size: rem(21px);
+             margin-bottom: rem(20px);
+            }
+        }
+        p{
+            color: $white;
+            font-size: rem(21px);
+            padding-bottom: rem(30px); 
+            border-bottom: 1px solid $white;
+            margin-bottom:0;
+			flex-grow: 1;
+            @include respond-below(xxl){
+                font-size: rem(20px);
+            }
+            @include respond-below(lg){
+                font-size: $font-size-small;
+                padding-bottom: rem(15px); 
+            }
+            
+        }
+       .btn-link{
+            color: $white;
+            font-size: rem(21px);
+            line-height: 1.2;
+            margin-top: rem(20px);
+            display: flex;
+            font-weight: 300;
+            &:hover::after , &:hover{
+                color: $secondary;
+            }
+            &::after{
+                @include respond-below(lg){
+                    font-size: $font-size-base;
+                    margin-top: rem(10px);
+                }
+                @include respond-below(md){
+                    margin-top: rem(17px);
+                }
+                color: $white;
+                font-size: rem(31px);
+                margin-left: auto;
+                @include respond-below(lg){
+                    font-size: rem(20px);
+                }
+            }
+       } 
+   }
+}
